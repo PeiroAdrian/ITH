@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gilis</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="wrapper">	
+		<div class="progress">
+		    <p>Cuarto 1</p>
+			<div class= "toggle-btn" id="unact">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn active" id="act" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+
+		<div class="progress">
+		  <p>Cuarto 2</p>
+			<div class= "toggle-btn1" id="unact1">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn1 active" id="act1" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+</div>
+		
+		<div class="progress">
+		  <p>Fachada</p>
+			<div class= "toggle-btn2" id="unact2">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn2 active" id="act2" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+		<div class="progress">
+		  <p>Entrada</p>
+			<div class= "toggle-btn3" id="unact3">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn3 active" id="act3" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+		
+		<div class="progress">
+		  <p>Foco</p>
+			<div class= "toggle-btn5" id="unact5">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn5 active" id="act5" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+		
+		<div class="progress">
+		  <p>Tira RGB</p>
+			<div class= "toggle-btn4" id="unact4">
+				<div class= "inner-circle">
+	
+				</div>
+</div>
+		
+		<div class="progress">
+		  <p>Fachada</p>
+			<div class= "toggle-btn2" id="unact2">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn2 active" id="act2" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+		<div class="progress">
+		  <p>Entrada</p>
+			<div class= "toggle-btn3" id="unact3">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn3 active" id="act3" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+		
+		<div class="progress">
+		  <p>Foco</p>
+			<div class= "toggle-btn5" id="unact5">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn5 active" id="act5" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+		
+		<div class="progress">
+		  <p>Tira RGB</p>
+			<div class= "toggle-btn4" id="unact4">
+				<div class= "inner-circle">
+	
+				</div>
+</div>
+			<div class= "toggle-btn4 active" id="act4" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div id="form">
+				<div class="inputBox">
+					<input type="number" id="ledRed" placeholder="LED Rojo" max="255" min="0" value="0">
+				</div>
+				<div class="inputBox">
+					<input type="number" id="ledGreen" placeholder="LED Azul" max="255" min="0" value="0">
+				</div>
+				<div class="inputBox">
+					<input type="number" id="ledBlue" placeholder="LED Verde" max="255" min="0" value="0">
+				</div>
+				<br>
+				<button id="enviar" type="button" onclick="sub()">Enviar</button>
+<br>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
